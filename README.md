@@ -16,6 +16,7 @@ Network Security Config patcher for Android applications (APKs)
 
 # Requirements
 * Java 8 (JRE 1.8)
+* Windows
 
 # Thanks
 * [ApkTool](https://github.com/iBotPeaches/Apktool)
