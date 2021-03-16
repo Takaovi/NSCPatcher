@@ -203,7 +203,7 @@ namespace NSCPatcher
             //Start compiling APK
             Process p = new Process();
             p.StartInfo.FileName = "cmd.exe";
-            //p.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+            p.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
             p.StartInfo.Arguments = "/k \"" + AppDomain.CurrentDomain.BaseDirectory + @"NSCPatcher_Data\" + "compile.bat" + "\"";
             p.EnableRaisingEvents = true;
             p.Exited += new EventHandler(p_Exited);
@@ -323,7 +323,7 @@ namespace NSCPatcher
         private void resetbat()
         {
             //Reverse edits on compile.bat
-            File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory + @"NSCPatcher_Data\compile.bat", @"cd NSCPatcher_Data\Temp\<name>" + "\njava -jar apktool.jar b -f -o <path2>" + "\npause");
+            File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory + @"NSCPatcher_Data\compile.bat", @"cd NSCPatcher_Data\Temp\<name>" + "\njava -jar apktool.jar b -f -o <path2>" + "\nexit");
 
             //Reverse edits on decompile.bat
             File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory + @"NSCPatcher_Data\decompile.bat", @"cd NSCPatcher_Data\Temp" + "\njava -jar apktool.jar d -f <path>" + "\nexit");
