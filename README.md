@@ -19,6 +19,7 @@ Network Security Config patcher for Android applications (APKs)
 
 # Thanks
 * [ApkTool](https://github.com/iBotPeaches/Apktool)
+* [APK Easy Tool](https://forum.xda-developers.com/t/tool-windows-apk-easy-tool-v1-58-3-dec-2020.3333960/) (For key/cert and other files)
 
 # Legal
 * The developer(s) are not responsible for the use of this program. It should be used only on own applications and by developers.
