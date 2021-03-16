@@ -39,7 +39,7 @@
             // 
             // PatchButton
             // 
-            this.PatchButton.Location = new System.Drawing.Point(11, 10);
+            this.PatchButton.Location = new System.Drawing.Point(14, 10);
             this.PatchButton.Name = "PatchButton";
             this.PatchButton.Size = new System.Drawing.Size(499, 35);
             this.PatchButton.TabIndex = 1;
