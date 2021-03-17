@@ -17,7 +17,7 @@ Network Security Config patcher for Android applications (APKs)
 # Requirements
 * Java 8 (JRE 1.8)
 * Windows
-
+* SAI installer (If the APKs wont install on your phone)
 # Thanks
 * [ApkTool](https://github.com/iBotPeaches/Apktool)
 * [APK Easy Tool](https://forum.xda-developers.com/t/tool-windows-apk-easy-tool-v1-58-3-dec-2020.3333960/) (Key/cert) (Yes, I am too lazy to make my own)
