@@ -1,7 +1,9 @@
 <network-security-config>  
       <base-config>  
             <trust-anchors>  
+                <!-- Trust preinstalled CAs -->  
                 <certificates src="system" />  
+                <!-- Additionally trust user added CAs -->  
                 <certificates src="user" />  
            </trust-anchors>  
       </base-config>  
