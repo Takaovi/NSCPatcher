@@ -35,6 +35,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.debugmodecheckbox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // PatchButton
@@ -79,11 +80,23 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "A tool for patching APK\'s Network Security Config";
             // 
+            // debugmodecheckbox
+            // 
+            this.debugmodecheckbox.AutoSize = true;
+            this.debugmodecheckbox.Location = new System.Drawing.Point(461, 105);
+            this.debugmodecheckbox.Name = "debugmodecheckbox";
+            this.debugmodecheckbox.Size = new System.Drawing.Size(58, 17);
+            this.debugmodecheckbox.TabIndex = 5;
+            this.debugmodecheckbox.Text = "Debug";
+            this.debugmodecheckbox.UseVisualStyleBackColor = true;
+            this.debugmodecheckbox.CheckedChanged += new System.EventHandler(this.debugmodecheckbox_CheckedChanged);
+            // 
             // Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(526, 127);
+            this.Controls.Add(this.debugmodecheckbox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.PatchButton);
@@ -106,6 +119,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox debugmodecheckbox;
     }
 }
 
