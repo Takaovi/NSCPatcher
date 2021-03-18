@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
-
+/* Program currently in developement */
 namespace NSCPatcher
 {
     public partial class Window : Form
