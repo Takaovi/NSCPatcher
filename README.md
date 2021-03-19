@@ -14,6 +14,7 @@ Network Security Config patcher for Android applications (APKs)
       * Edit the Manifest to add network_security_config.xml to the application
     * Compile
     * Sign
+    * Open the output .apk folder to the user
 
 # Requirements
 * Java 8 (JRE 1.8)
