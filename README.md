@@ -7,12 +7,13 @@ Network Security Config patcher for Android applications (APKs)
 
 # Features
 * Automate the process of patching Network Security Config
-   * Decompile
-   * Patch
-     * Add network_security_config.xml to a suitable folder
-     * Edit the Manifest to add the .xml config file to the application
-   * Compile
-   * Sign
+  * Automatically
+    * Decompile
+    * Patch
+      * Add network_security_config.xml to the XML folder, create the folder if doesn't exist
+      * Edit the Manifest to add network_security_config.xml to the application
+    * Compile
+    * Sign
 
 # Requirements
 * Java 8 (JRE 1.8)
