@@ -7,7 +7,6 @@ Network Security Config patcher for Android applications (APKs)
 
 # Features
 * Automate the process of patching Network Security Config
-  * Automatically
     * Decompile
     * Patch
       * Add network_security_config.xml to the XML folder, create the folder if doesn't exist
