@@ -1,8 +1,6 @@
 # NSCPatcher
 Network Security Config patcher for Android applications (APKs)
 
-![](https://i.imgur.com/O7k13yp.png)
-
 ###### This program is in it's early developing stages so it may not be fully functional and not work for every application. Pull requests are very welcome.
 
 # Features
