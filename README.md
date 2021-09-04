@@ -1,7 +1,7 @@
 # NSCPatcher
 Network Security Config patcher for Android applications (APKs)
 
-##### This program is in it's early developing stages so it may not be fully functional and not work for every application. Pull requests are very welcome, though I do understand if you decide not to contribute, the code and logic of program is horrible. May need to rewrite it using a proper C# library.
+###### This program is in it's early developing stages so it may not be fully functional and work for every application. Pull requests are very welcome, though I do understand if you decide not to contribute, the code and logic of the program is horrible. May need to rewrite it using a proper C# library.
 
 # Features
 * Automate the process of patching Network Security Config
